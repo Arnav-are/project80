@@ -8,7 +8,7 @@ function getparagraph1() {
         {
             paragraph_1.push(document.getElementById("box" + i).value);
             paragraph_1.join(". ");
-            document.getElementById("showparagraph1").innerHTML = paragraph_1.join(". ");
+            document.getElementById("showparagraph_1").innerHTML = paragraph_1.join(". ");
         }
     }
     
@@ -20,7 +20,7 @@ function getparagraph2() {
         {
             paragraph_2.push(document.getElementById("para2_box" + k).value);
             paragraph_2.join(". ");
-            document.getElementById("showparagraph2").innerHTML = paragraph_2.join(". ");
+            document.getElementById("showparagraph_2").innerHTML = paragraph_2.join(". ");
             
         }
     }
