@@ -1,7 +1,7 @@
 var  paragraph_1 = [];
 var  paragraph_2 = [];
 
-function getParagraph_1() {
+function getparagraph1() {
     for(var i = 1; i <= 6; i++)
     {
         if((document.getElementById("box"+i).value)!="")
@@ -13,7 +13,7 @@ function getParagraph_1() {
     }
     
 }
-function getParagraph_2() {
+function getparagraph2() {
     for(var k = 1; k <= 6; k++)
     {
         if((document.getElementById("para2_box"+k).value)!="")
